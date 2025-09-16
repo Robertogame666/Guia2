@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=MonteCarlo&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #143452;
+    margin: 0;
+    padding: 20px;
+}
+
+article {
+    background-color: #bc3306;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+article h3 {
+    font-family: bitcount grid double, sans-serif;
+    margin-top: 0;
+    color: #222;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.imagenes img {
+    width: 150px;
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.imagenes div {
+    width: 150px;
+    height: 150px;
+    overflow: hidden; /* oculta lo que sobresalga */
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
